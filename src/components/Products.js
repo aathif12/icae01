@@ -1,4 +1,5 @@
 import "../assets/CSS/layout.css";
+import Cart from "./Cart";
 import { flowers } from "./FlowerDB";
 import Product from "./Product";
 export default function Products() {
@@ -13,11 +14,7 @@ export default function Products() {
           <Product flowersp={flowers}></Product>
         </div>
       </div>
-      <div className="item3">
-        {
-          //cart
-        }
-      </div>
+      <div className="item3">{<Cart></Cart>}</div>
     </>
   );
 }
