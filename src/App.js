@@ -1,10 +1,10 @@
-import './assets/CSS/layout.css';
-import Products from './components/Products';
+import "./assets/CSS/layout.css";
+import Products from "./components/Products";
 
 function App() {
   return (
     <div className="main-grid-container">
-      <Products/>
+      <Products />
     </div>
   );
 }
